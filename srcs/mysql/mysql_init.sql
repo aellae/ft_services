@@ -1,0 +1,9 @@
+
+FLUSH PRIVILEGES;
+-- identified by e' la password
+CREATE DATABASE IF NOT EXISTS wordpress;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+
+
